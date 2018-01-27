@@ -1,0 +1,61 @@
+html, body, #atf, #btf, #gallery{
+    padding: 0;
+    margin: 0;
+    border:0;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, p {
+    font-family: Avenir, Pier Regular, sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.trans{
+    width:100%;
+    height: 50px;
+}
+
+#atf {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #ad0100;
+}
+
+#btf {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    /*justify-content: center;*/
+    align-items:center;
+}
+
+#btf p, h2{
+    width:200px;
+    text-align:center;
+}
+
+#btf img{
+	width:200px;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#contacts{
+    margin: 0px;
+    padding: 0px;
+    border: 0;
+    background-color:#ffa14d;
+    overflow:hidden;
+}
+
